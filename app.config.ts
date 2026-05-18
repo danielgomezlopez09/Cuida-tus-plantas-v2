@@ -3,7 +3,7 @@ import type { ExpoConfig } from "expo/config";
 const config: ExpoConfig = {
   name: "Cuida tus plantas",
   slug: "cuida-tus-plantas",
-  owner: "danielgomezlopez09",
+  owner: "daniel6661s-organization",
   version: "1.0.0",
   orientation: "portrait",
   icon: "./assets/images/icon.png",
