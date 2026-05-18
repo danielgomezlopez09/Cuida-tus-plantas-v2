@@ -3,11 +3,14 @@ import type { ExpoConfig } from "expo/config";
 const config: ExpoConfig = {
   name: "Cuida tus plantas",
   slug: "cuida-tus-plantas",
+  owner: "danielgomezlopez09",
   version: "1.0.0",
   orientation: "portrait",
   icon: "./assets/images/icon.png",
   scheme: "cuidatusplantas",
   userInterfaceStyle: "automatic",
+  newArchEnabled: true,
+  runtimeVersion: "1.0.0",
   ios: {
     supportsTablet: true,
     bundleIdentifier: "com.app.cuidatusplantas",
@@ -45,16 +48,12 @@ const config: ExpoConfig = {
         backgroundColor: "#ffffff",
       },
     ],
-    [
-      "expo-build-properties",
-      {
-        android: {
-          buildArchs: ["armeabi-v7a", "arm64-v8a"],
-          minSdkVersion: 24,
-        },
-      },
-    ],
   ],
+  extra: {
+    eas: {
+      projectId: "6b28301e-320b-41f1-a825-806ee7f41f8b"
+    }
+  }
 };
 
 export default config;
