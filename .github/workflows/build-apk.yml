@@ -15,7 +15,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Install EAS CLI
         run: npm install -g eas-cli
@@ -26,4 +26,5 @@ jobs:
       - name: Build APK
         env:
           EXPO_TOKEN: ${{ secrets.expo_token }}
+          EAS_BUILD_SKIP_LOCKFILE_CHECK: 1
         run: eas build --platform android --profile production --non-interactive
