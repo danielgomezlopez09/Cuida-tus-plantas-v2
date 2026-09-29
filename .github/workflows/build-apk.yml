@@ -41,8 +41,6 @@ jobs:
           cache: npm
 
 
-      - name: Preparar Android SDK
-        run: |
           
 - name: Preparar Android SDK
   run: |
