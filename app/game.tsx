@@ -232,38 +232,68 @@ export default function GameScreen() {
 
         {/* Botones de Acción */}
         <View className="gap-3">
-          <Pressable
-            onPress={() => router.push('/game-shop')}
-            className="bg-surface border border-border rounded-lg p-4 flex-row items-center justify-between active:opacity-80"
-          >
-            <View className="flex-row items-center gap-3">
-              <MaterialIcons name="store" size={24} color={colors.primary} />
-              <Text className="text-foreground font-semibold">Tienda</Text>
-            </View>
-            <MaterialIcons name="arrow-forward" size={20} color={colors.muted} />
-          </Pressable>
+          
+<TouchableOpacity
+  onPress={() => router.push('/game-shop')}
+  activeOpacity={0.75}
+  style={{
+    backgroundColor: colors.surface,
+    borderColor: colors.border,
+    borderWidth: 1,
+    borderRadius: 8,
+    padding: 16,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  }}
+>
+  <View className="flex-row items-center gap-3">
+    <MaterialIcons name="store" size={24} color={colors.primary} />
+    <Text className="text-foreground font-semibold">Tienda</Text>
+  </View>
+  <MaterialIcons name="arrow-forward" size={20} color={colors.muted} />
+</TouchableOpacity>
+          <TouchableOpacity
+  onPress={() => router.push('/game-achievements')}
+  activeOpacity={0.75}
+  style={{
+    backgroundColor: colors.surface,
+    borderColor: colors.border,
+    borderWidth: 1,
+    borderRadius: 8,
+    padding: 16,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  }}
+>
+  <View className="flex-row items-center gap-3">
+    <MaterialIcons name="emoji-events" size={24} color={colors.warning} />
+    <Text className="text-foreground font-semibold">Logros</Text>
+  </View>
+  <MaterialIcons name="arrow-forward" size={20} color={colors.muted} />
+</TouchableOpacity>
 
-          <Pressable
-            onPress={() => router.push('/game-achievements')}
-            className="bg-surface border border-border rounded-lg p-4 flex-row items-center justify-between active:opacity-80"
-          >
-            <View className="flex-row items-center gap-3">
-              <MaterialIcons name="emoji-events" size={24} color={colors.warning} />
-              <Text className="text-foreground font-semibold">Logros</Text>
-            </View>
-            <MaterialIcons name="arrow-forward" size={20} color={colors.muted} />
-          </Pressable>
-
-          <Pressable
-            onPress={() => router.push('/game-collection')}
-            className="bg-surface border border-border rounded-lg p-4 flex-row items-center justify-between active:opacity-80"
-          >
-            <View className="flex-row items-center gap-3">
-              <MaterialIcons name="collections" size={24} color={colors.success} />
-              <Text className="text-foreground font-semibold">Mi Colección</Text>
-            </View>
-            <MaterialIcons name="arrow-forward" size={20} color={colors.muted} />
-          </Pressable>
+          <TouchableOpacity
+  onPress={() => router.push('/game-collection')}
+  activeOpacity={0.75}
+  style={{
+    backgroundColor: colors.surface,
+    borderColor: colors.border,
+    borderWidth: 1,
+    borderRadius: 8,
+    padding: 16,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  }}
+>
+  <View className="flex-row items-center gap-3">
+    <MaterialIcons name="collections" size={24} color={colors.success} />
+    <Text className="text-foreground font-semibold">Mi Colección</Text>
+  </View>
+  <MaterialIcons name="arrow-forward" size={20} color={colors.muted} />
+</TouchableOpacity>
         </View>
       </ScrollView>
     </ScreenContainer>
