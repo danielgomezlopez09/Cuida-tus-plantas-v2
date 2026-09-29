@@ -210,13 +210,23 @@ export default function GameScreen() {
             <Text className="text-sm text-muted text-center mb-4">
               Selecciona una semilla para comenzar a cultivar
             </Text>
-            <Pressable
+            <TouchableOpacity
               onPress={handlePlantSeed}
-              className="bg-primary rounded-lg px-6 py-3 flex-row items-center gap-2 active:opacity-80"
+              activeOpacity={0.75}
+              style={{
+                backgroundColor:
+            colors.primary,
+                borderRadius: 8,
+                paddingHorizontal: 24,
+                paddingVertical: 12,
+                flexDirection: 'row',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
             >
               <MaterialIcons name="add" size={20} color="white" />
-              <Text className="text-white font-semibold">Plantar Semilla</Text>
-            </Pressable>
+  <Text className="text-white font-semibold ml-2">Plantar Semilla</Text>
+</TouchableOpacity>
           </View>
         )}
 
