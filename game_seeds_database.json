@@ -28,7 +28,8 @@
       "growthTime": 10,
       "stages": ["semilla", "brote", "plántula", "planta joven", "planta adulta"],
       "harvestType": "fruto",
-      "coinsPerHarvest": 45,
+      "coinsPerHarvest": 18,
+      "price": 5,
       "careRequirements": {
         "wateringInterval": 8,
         "fertilizingInterval": 48,
@@ -45,7 +46,8 @@
       "growthTime": 10,
       "stages": ["semilla", "brote", "plántula", "planta joven", "flor"],
       "harvestType": "flor",
-      "coinsPerHarvest": 40,
+      "coinsPerHarvest": 20,
+      "price": 5,
       "careRequirements": {
         "wateringInterval": 8,
         "fertilizingInterval": 48,
@@ -62,7 +64,8 @@
       "growthTime": 10,
       "stages": ["semilla", "brote", "plántula", "planta joven", "flor"],
       "harvestType": "flor",
-      "coinsPerHarvest": 60,
+      "coinsPerHarvest": 25,
+      "price": 8,
       "careRequirements": {
         "wateringInterval": 8,
         "fertilizingInterval": 48,
@@ -79,7 +82,8 @@
       "growthTime": 10,
       "stages": ["semilla", "brote", "plántula", "planta joven", "lista para cosechar"],
       "harvestType": "fruto",
-      "coinsPerHarvest": 35,
+      "coinsPerHarvest": 16,
+      "price": 6,
       "careRequirements": {
         "wateringInterval": 8,
         "fertilizingInterval": 48,
@@ -96,7 +100,8 @@
       "growthTime": 10,
       "stages": ["semilla", "brote", "plántula", "planta joven", "planta adulta"],
       "harvestType": "fruto",
-      "coinsPerHarvest": 55,
+      "coinsPerHarvest": 28,
+      "price": 10,
       "careRequirements": {
         "wateringInterval": 8,
         "fertilizingInterval": 48,
@@ -113,7 +118,8 @@
       "growthTime": 10,
       "stages": ["semilla", "brote", "plántula", "planta joven", "árbol joven"],
       "harvestType": "fruto",
-      "coinsPerHarvest": 70,
+      "coinsPerHarvest": 35,
+      "price": 12,
       "careRequirements": {
         "wateringInterval": 8,
         "fertilizingInterval": 48,
@@ -130,7 +136,8 @@
       "growthTime": 10,
       "stages": ["semilla", "brote", "plántula", "planta joven", "flor"],
       "harvestType": "flor",
-      "coinsPerHarvest": 80,
+      "coinsPerHarvest": 40,
+      "price": 15,
       "careRequirements": {
         "wateringInterval": 8,
         "fertilizingInterval": 48,
@@ -147,7 +154,8 @@
       "growthTime": 10,
       "stages": ["semilla", "brote", "plántula", "planta joven", "lista para cosechar"],
       "harvestType": "fruto",
-      "coinsPerHarvest": 38,
+      "coinsPerHarvest": 18,
+      "price": 7,
       "careRequirements": {
         "wateringInterval": 8,
         "fertilizingInterval": 48,
@@ -164,7 +172,8 @@
       "growthTime": 10,
       "stages": ["semilla", "brote", "plántula", "planta joven", "árbol joven"],
       "harvestType": "fruto",
-      "coinsPerHarvest": 65,
+      "coinsPerHarvest": 32,
+      "price": 14,
       "careRequirements": {
         "wateringInterval": 8,
         "fertilizingInterval": 48,
@@ -181,7 +190,8 @@
       "growthTime": 10,
       "stages": ["semilla", "brote", "plántula", "planta joven", "flor"],
       "harvestType": "flor",
-      "coinsPerHarvest": 42,
+      "coinsPerHarvest": 22,
+      "price": 9,
       "careRequirements": {
         "wateringInterval": 8,
         "fertilizingInterval": 48,
@@ -198,7 +208,8 @@
       "growthTime": 10,
       "stages": ["semilla", "brote", "plántula", "planta joven", "lista para cosechar"],
       "harvestType": "fruto",
-      "coinsPerHarvest": 33,
+      "coinsPerHarvest": 16,
+      "price": 6,
       "careRequirements": {
         "wateringInterval": 8,
         "fertilizingInterval": 48,
@@ -215,7 +226,8 @@
       "growthTime": 10,
       "stages": ["semilla", "brote", "plántula", "planta joven", "árbol joven"],
       "harvestType": "fruto",
-      "coinsPerHarvest": 68,
+      "coinsPerHarvest": 32,
+      "price": 13,
       "careRequirements": {
         "wateringInterval": 8,
         "fertilizingInterval": 48,
@@ -232,7 +244,8 @@
       "growthTime": 10,
       "stages": ["semilla", "brote", "plántula", "planta joven", "flor"],
       "harvestType": "flor",
-      "coinsPerHarvest": 38,
+      "coinsPerHarvest": 20,
+      "price": 8,
       "careRequirements": {
         "wateringInterval": 8,
         "fertilizingInterval": 48,
@@ -249,7 +262,8 @@
       "growthTime": 10,
       "stages": ["semilla", "brote", "plántula", "planta joven", "planta adulta"],
       "harvestType": "fruto",
-      "coinsPerHarvest": 75,
+      "coinsPerHarvest": 42,
+      "price": 16,
       "careRequirements": {
         "wateringInterval": 8,
         "fertilizingInterval": 48,
@@ -266,7 +280,8 @@
       "growthTime": 10,
       "stages": ["semilla", "brote", "plántula", "planta joven", "árbol joven"],
       "harvestType": "fruto",
-      "coinsPerHarvest": 72,
+      "coinsPerHarvest": 38,
+      "price": 15,
       "careRequirements": {
         "wateringInterval": 8,
         "fertilizingInterval": 48,
@@ -283,7 +298,8 @@
       "growthTime": 10,
       "stages": ["semilla", "brote", "plántula", "planta joven", "flor"],
       "harvestType": "flor",
-      "coinsPerHarvest": 55,
+      "coinsPerHarvest": 28,
+      "price": 11,
       "careRequirements": {
         "wateringInterval": 8,
         "fertilizingInterval": 48,
@@ -300,7 +316,8 @@
       "growthTime": 10,
       "stages": ["semilla", "brote", "plántula", "planta joven", "planta adulta"],
       "harvestType": "fruto",
-      "coinsPerHarvest": 58,
+      "coinsPerHarvest": 30,
+      "price": 12,
       "careRequirements": {
         "wateringInterval": 8,
         "fertilizingInterval": 48,
@@ -317,7 +334,8 @@
       "growthTime": 10,
       "stages": ["semilla", "brote", "plántula", "planta joven", "flor"],
       "harvestType": "flor",
-      "coinsPerHarvest": 50,
+      "coinsPerHarvest": 26,
+      "price": 10,
       "careRequirements": {
         "wateringInterval": 16,
         "fertilizingInterval": 96,
@@ -334,7 +352,8 @@
       "growthTime": 10,
       "stages": ["semilla", "brote", "plántula", "planta joven", "planta adulta"],
       "harvestType": "fruto",
-      "coinsPerHarvest": 48,
+      "coinsPerHarvest": 24,
+      "price": 8,
       "careRequirements": {
         "wateringInterval": 8,
         "fertilizingInterval": 48,
