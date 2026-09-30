@@ -153,22 +153,24 @@ export default function GameSeedSelectionScreen() {
       )}
 
       {/* Botón de Plantar */}
-      <Pressable
-        onPress={handlePlantSeed}
-        disabled={selectedSeedId === null}
-        className={`rounded-lg p-4 flex-row items-center justify-center gap-2 ${
-          selectedSeedId === null ? 'bg-border opacity-50' : 'bg-primary active:opacity-80'
-        }`}
-      >
-        <MaterialIcons
-          name="check-circle"
-          size={24}
-          color={selectedSeedId === null ? colors.muted : 'white'}
-        />
-        <Text className={`font-bold ${selectedSeedId === null ? 'text-muted' : 'text-white'}`}>
-          Plantar Semilla
-        </Text>
-      </Pressable>
+      <TouchableOpacity
+  onPress={handlePlantSeed}
+  disabled={selectedSeedId === null}
+  activeOpacity={0.75}
+  style={{
+    backgroundColor: selectedSeedId === null ? '#D1D5DB' : '#16A34A',
+    opacity: selectedSeedId === null ? 0.5 : 1,
+    borderRadius: 8,
+    padding: 16,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+  }}
+>
+  <Text className="text-white text-lg font-bold">
+    ✓ Plantar Semilla
+  </Text>
+</TouchableOpacity>
     </ScreenContainer>
   );
 }
