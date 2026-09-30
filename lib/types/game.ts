@@ -13,6 +13,7 @@ export interface Seed {
   stages: string[];
   harvestType: 'fruto' | 'flor';
   coinsPerHarvest: number;
+  price: number;
   careRequirements: {
     wateringInterval: number; // en horas
     fertilizingInterval: number; // en horas
