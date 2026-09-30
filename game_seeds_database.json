@@ -10,7 +10,8 @@
       "growthTime": 10,
       "stages": ["semilla", "brote", "plántula", "planta joven", "planta adulta"],
       "harvestType": "fruto",
-      "coinsPerHarvest": 50,
+      "coinsPerHarvest": 15,
+      "price": 0,
       "careRequirements": {
         "wateringInterval": 8,
         "fertilizingInterval": 48,
