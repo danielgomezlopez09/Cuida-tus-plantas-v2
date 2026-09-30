@@ -92,14 +92,27 @@ export default function GameSeedSelectionScreen() {
       </View>
 
       {/* Grid de Semillas */}
-      <FlatList
-        data={seeds}
-        renderItem={renderSeedCard}
-        keyExtractor={(item) => item.id.toString()}
-        numColumns={2}
-        scrollEnabled={false}
-        contentContainerStyle={{ marginBottom: 20 }}
-      />
+      <View
+  style={{
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between',
+    marginBottom: 20,
+  }}
+>
+  {seeds.map((seed) => (
+    <View
+      key={seed.id}
+      style={{
+        width: '48%',
+        marginBottom: 12,
+      }}
+    >
+      {renderSeedCard({ item: seed })}
+    </View>
+  ))}
+</View>
+      
 
       {/* Información de la Semilla Seleccionada */}
       {selectedSeedId !== null && (
