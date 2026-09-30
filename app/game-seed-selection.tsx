@@ -1,4 +1,4 @@
-import { View, Text, Pressable, ScrollView, FlatList } from 'react-native';
+import { View, Text, Pressable, TouchableOpacity, ScrollView } from 'react-native';
 import { useRouter } from 'expo-router';
 import { ScreenContainer } from '@/components/screen-container';
 import { useGame } from '@/lib/contexts/GameContext';
